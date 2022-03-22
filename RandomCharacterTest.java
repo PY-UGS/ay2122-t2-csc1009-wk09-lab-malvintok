@@ -35,7 +35,6 @@ public class RandomCharacterTest {
         randChar = random.getRandomDigitCharacter();
         boolean flag = true;
         int num = Integer.parseInt(randChar);
-        // num = 97;
         if (num <= 1) {
             flag = false;
         } else if (num % 2 == 0 && num != 2) {
